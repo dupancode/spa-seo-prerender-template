@@ -61,7 +61,7 @@ Untuk melakukan build dengan prerendering:
 Setelah proses selesai, folder `dist/` akan berisi hasil prerender statis.
 
 
-## Deploy ke Production--
+## Deploy ke Production
 
 1.  Pindah ke folder **production**:
         
