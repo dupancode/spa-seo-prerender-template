@@ -3,10 +3,8 @@
 Template ini adalah dasar untuk membangun **Single Page Application (SPA)** berbasis **Vue 3 + Vite + Express** dengan dukungan **SEO (Search Engine Optimization)** menggunakan teknik **Prerendering**.  
 Didesain agar **ringan, mudah dikembangkan**, dan **siap untuk produksi**.
 
-* * *
 
 ## Teknologi yang Digunakan
----------------------------
 
 | Teknologi                           | Deskripsi                                                    |
 | ----------------------------------- | ------------------------------------------------------------ |
@@ -21,10 +19,8 @@ Didesain agar **ringan, mudah dikembangkan**, dan **siap untuk produksi**.
 | **PostCSS & Autoprefixer**          | Otomatis menambahkan prefix CSS untuk kompatibilitas browser |
 
 
-* * *
 
 ## Instalasi
-------------
 
 Clone repository ini dan masuk ke folder project:
 
@@ -34,10 +30,8 @@ install semua dependensi:
 
 `npm install`
 
-* * *
 
 ## Konfigurasi Router
----------------------
 
 Buka file:
 
@@ -57,10 +51,8 @@ Ubah atau tambahkan rute sesuai kebutuhan:
     `const dynamicRoutes = ["vue", "react-new", "angular"];`
     
 
-* * *
 
 ## Build Proyek
-----------------
 
 Untuk melakukan build dengan prerendering:
 
@@ -68,10 +60,8 @@ Untuk melakukan build dengan prerendering:
 
 Setelah proses selesai, folder `dist/` akan berisi hasil prerender statis.
 
-* * *
 
-## Deploy ke Production
------------------------
+## Deploy ke Production--
 
 1.  Pindah ke folder **production**:
         
@@ -92,10 +82,8 @@ Setelah proses selesai, folder `dist/` akan berisi hasil prerender statis.
 5.  Jika berjalan lancar di lokal, kamu bisa **upload folder production ke share hosting atau VPS**.
     
 
-* * *
 
 ### Catatan Penting
-------------------
 
 *   Pastikan file **dist** sudah berisi hasil build lengkap sebelum diupload.
     
@@ -110,10 +98,8 @@ Setelah proses selesai, folder `dist/` akan berisi hasil prerender statis.
     *   `<meta name="description">` sesuai konten halaman
         
 
-* * *
 
 ## Script Utama
----------------
 
 *   `npm run dev` → Jalankan mode pengembangan
     
@@ -122,10 +108,8 @@ Setelah proses selesai, folder `dist/` akan berisi hasil prerender statis.
 *   `npm run preview` → Jalankan preview lokal hasil build
     
 
-* * *
 
 ## Hasil Akhir
---------------
 
 Setelah deploy, aplikasi kamu:
 
@@ -136,10 +120,8 @@ Setelah deploy, aplikasi kamu:
 *   Dapat dijalankan di **shared hosting atau server Node.js**
     
 
-* * *
 
 ## Kontributor
--------------
 
 Template ini dikembangkan oleh [Dupan Code](https://dupancode.com) sebagai pondasi untuk proyek SPA SEO-friendly.  
 Dapat digunakan dan dimodifikasi bebas untuk keperluan pribadi atau komersial.
